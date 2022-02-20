@@ -10,3 +10,43 @@ will_give_title;Давать гранты;X
 will_give_desc;Тебе будут уведомления от бомжей приходить (эта сука хочет фунтов);X
 will_not_give_title;Не давать гранты;X
 will_not_give_desc;ДА ИДУТ ОНИ НАХУЙ;X
+EVTNAME10000;Дайте денег пж;X
+EVTDESC10000;Ахахахах ты чё бля бомж на столько ахахахах ну ок ща посмотрим какой лох тебе задонатит фунтов лол (эта сука хочет фунтов);X
+EVTOPTA10000;Пожалуйста дайте денег;X
+EVTNAME10002;ты теперь должен отсосать $FROMCOUNTRY$;X
+EVTDESC10002;$FROMCOUNTRY$ дали нам 1000 (хуле тут так мало);X
+EVTOPTA10002;ДА;X
+EVTNAME10004;ты теперь должен отсосать $FROMCOUNTRY$;X
+EVTDESC10004;$FROMCOUNTRY$ дали нам 10000;X
+EVTOPTA10004;ДА;X
+EVTNAME10006;ты теперь должен отсосать $FROMCOUNTRY$;X
+EVTDESC10006;$FROMCOUNTRY$ дали нам 100000 (ЕБАТЬ);X
+EVTOPTA10006;ДА;X
+EVTNAME10008;ты теперь должен отсосать $FROMCOUNTRY$;X
+EVTDESC10008;$FROMCOUNTRY$ дали нам 1000000 ДААААА НАХУЙ ШИКУЕМ БЛЯЯЯЯЯЯ;X
+EVTOPTA10008;ДА;X
+EVTNAME10001;$FROMCOUNTRY$ просит бабок;X
+EVTDESC10001;$FROMCOUNTRY$ нужны деньги, ну чё дадим бомжаре чутка или нахуй его?;X
+EVTOPTA10001;ПОШЛИ НАХУЙ БАБКИ НАШИ;X
+EVTOPTB10001;1000 рублей тьфу бля фунтов нахуй;X
+EVTOPTC10001;10000, пускай кайфанут чутка;X
+EVTOPTD10001;100000, потому что эта сука хочет денег;X
+EVTOPTE10001;1000000, ДАВАЙ ВОЛЬЁМ В НЕЁ ВЕСЬ БЮДЖЕТ АХАХАХАХАХ;X
+EVTNAME10003;;X
+EVTDESC10003;;X
+EVTOPTA10003;;X
+EVTNAME10005;;X
+EVTDESC10005;;X
+EVTOPTA10005;;X
+EVTNAME10007;;X
+EVTDESC10007;;X
+EVTOPTA10007;;X
+EVTNAME10009;;X
+EVTDESC10009;;X
+EVTOPTA10009;;X
+EVTNAME10010;;X
+EVTDESC10010;;X
+EVTOPTA10010;;X
+EVTNAME10013;;X
+EVTDESC10013;;X
+EVTOPTA10013;;X

@@ -9,9 +9,9 @@ country_event = {
 	
 	id = 100000
 	
-	title = "Aid Requested"
+	title = "EVTNAME10000"
 	
-	desc = "We have requested aid from foreign powers. We can only hope they respond kindly."
+	desc = "EVTDESC10000"
 	
 	is_triggered_only = yes	
 	
@@ -19,7 +19,7 @@ country_event = {
 
 	option = {
 	
-		name = "It is out of our hands."
+		name = "EVTOPTA10000"
 
 		any_country = {
 		
@@ -48,16 +48,16 @@ country_event = {
 	
 id = 100002
 	
-	title = "$FROMCOUNTRY$ Grants Aid"
+	title = "EVTNAME10002"
 	
-	desc = "$FROMCOUNTRY$ has decided to give us aid on the order of thousands of pounds."
+	desc = "EVTDESC10002"
 	
 	allow_multiple_instances = yes		
 	
 	is_triggered_only = yes
 	option = {
 	
-		name = "Great!"
+		name = "EVTOPTA10002"
 	
 		ai_chance = {factor = 100} 
 	
@@ -74,15 +74,15 @@ country_event = {
 
 	id = 100004
 
-	title = "$FROMCOUNTRY$ Grants Aid"
+	title = "EVTNAME10004"
 
-	desc = "$FROMCOUNTRY$ has decided to give us aid on the order of tens of thousands of pounds."
+	desc = "EVTDESC10004"
 
 	allow_multiple_instances = yes
 	is_triggered_only = yes
 	option = {
 
-		name = "Great!"
+		name = "EVTOPTA10004"
 	
 		ai_chance = {factor = 100}
 		 
@@ -103,16 +103,16 @@ country_event = {
 
 	id = 100006
 
-	title = "$FROMCOUNTRY$ Grants Aid"
+	title = "EVTNAME10006"
 
-	desc = "$FROMCOUNTRY$ has decided to give us aid on the order of hundereds of thousands of pounds."
+	desc = "EVTDESC10006"
 
 	is_triggered_only = yes
 	allow_multiple_instances = yes
 		
 	option = {
 	
-			name = "Great!"
+			name = "EVTOPTA10006"
 			
 	ai_chance = {factor = 100}
 	 
@@ -133,16 +133,16 @@ country_event = {
 
 	id = 100008
 
-	title = "$FROMCOUNTRY$ Grants Aid"
+	title = "EVTNAME10008"
 
 	is_triggered_only = yes
-	desc = "$FROMCOUNTRY$ has decided to give us aid on the order of millions of pounds."
+	desc = "EVTDESC10008"
 	
 	allow_multiple_instances = yes
 		
 	option = {
 
-			name = "Great!"
+			name = "EVTOPTA10008"
 	ai_chance = {factor = 100}
  
 			FROM = {

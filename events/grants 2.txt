@@ -8,17 +8,17 @@ country_event = {
 
 	is_triggered_only = yes
 	id = 100001
-	title = "$FROMCOUNTRY$ Requests Aid"
-	desc = "$FROMCOUNTRY$ has asked we give them a grant. How much should we give?"
+	title = "EVTNAME10001"
+	desc = "EVTDESC10001"
 	allow_multiple_instances = yes
 	option = {
 	ai_chance={factor=100}
-	name = "Our money is better spent at home."
+	name = "EVTOPTA10001"
 		#FROM = { country_event = {id = 100010 days = 0} }
 	
 	}
 	option = {
-	name = "Thousands of Pounds"
+	name = "EVTOPTB10001"
 	
 		FROM = {
 			country_event = {id = 100002 days = 0}
@@ -28,7 +28,7 @@ country_event = {
 	}
 	
 	option = {
-	name = "Tens of Thousands of Pounds"
+	name = "EVTOPTC10001"
 	
 		FROM = {
 			country_event = {id = 100004 days = 0}
@@ -36,14 +36,14 @@ country_event = {
 	}
 	
 	option = {
-	name = "Hundreds of Thousands of Pounds"
+	name = "EVTOPTD10001"
 	
 		FROM = {
 			country_event = {id = 100006 days = 0}
 		} 
 	}
 	option = {
-	name = "Millions of Pounds"
+	name = "EVTOPTE10001"
 	
 		FROM = {
 			country_event = {id = 100008 days = 0}
