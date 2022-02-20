@@ -3,7 +3,7 @@ country_event = {
 	id = 77771 
 
 	trigger = {
-		tag = FRA
+		any_country
 		year = 1836
         }
  
