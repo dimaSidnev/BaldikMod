@@ -41,7 +41,7 @@ political_decisions = {
 			badboy = 1
 			add_country_modifier = {
 				name = total_ass
-				duration = 3650
+				duration = 200000
 			}
 		}
 	}
