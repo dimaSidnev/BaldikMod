@@ -20,16 +20,16 @@ country_event = {
 	option = {
 		name = "EVTOPTA77771" 
 		prestige = 0.1
-                ai_chance = {
-                        factor = 100
-                }
+        ai_chance = {
+                     factor = 100
+        }
 	}
 
-        option = {
+    option = {
 		name = "EVTOPTB77771" 
 		prestige = -10000
-                badboy = 228
-                civilized = no
+        badboy = 228
+        civilized = no
                 literacy = 0.9
                 ai_chance = {
                         factor = 0
