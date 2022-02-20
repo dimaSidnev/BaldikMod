@@ -761,4 +761,5 @@ liberian_research_boost = {
 #ASS
 total_ass = {
 global_assimilation_rate = 0.25 # 1=100%
+assimilation_rate = 0.26
 }
