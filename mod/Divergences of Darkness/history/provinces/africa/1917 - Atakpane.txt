@@ -1,3 +1,0 @@
-add_core = DHY
-trade_goods = coffee
-life_rating = 10
