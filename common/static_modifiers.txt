@@ -28,9 +28,9 @@ hard_player = {
 	badboy = -0.5
 	research_points_modifier = 0.25
 	leadership_modifier = 0.25
-	poor_life_needs = 0.2
-	middle_life_needs = 0.2
-	rich_life_needs = 0.2
+	poor_life_needs = -0.2
+	middle_life_needs = -0.2
+	rich_life_needs = -0.2
 	war_exhaustion = -0.23
 	industry_tech_research_bonus = 0.05
 }
@@ -59,7 +59,11 @@ hard_ai = {
 	leadership_modifier = 0.5
 	global_pop_militancy_modifier = -0.02
 	war_exhaustion = -1.0
-	industry_tech_research_bonus = 0.20
+	industry_tech_research_bonus = 0.2
+	army_tech_research_bonus = 0.2
+	navy_tech_research_bonus = 0.2
+	culture_tech_research_bonus = 0.2
+	commerce_tech_research_bonus = 0.2
 }
 
 very_hard_ai = {
