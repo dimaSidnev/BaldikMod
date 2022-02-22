@@ -32,7 +32,7 @@ hard_player = {
 	middle_life_needs = -0.2
 	rich_life_needs = -0.2
 	war_exhaustion = -0.23
-	industry_tech_research_bonus = 0.05
+	industry_tech_research_bonus = 0.1
 }
 
 very_hard_player = {
