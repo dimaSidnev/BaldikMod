@@ -44,6 +44,9 @@ political_decisions = {
 				duration = 200000
 			}
 		}
+		ai_will_do = {
+			factor = 0
+			}
 	}
 	switch_to_navy_tech = {
 		alert = no
