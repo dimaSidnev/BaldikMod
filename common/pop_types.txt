@@ -585,9 +585,9 @@ assimilation_chance =
 			literacy = 0.8
 		}
 	}
-	
+
 	modifier = {
-    	factor = 0
+    	factor = -20
 		has_culture_core = yes
 	}
 	modifier = {
@@ -639,6 +639,11 @@ assimilation_chance =
 			factor = -0.2
 			militancy = 9
 		}
+	}
+
+	modifier = {
+		factor = -1
+		is_accepted_culture = yes
 	}
 
 

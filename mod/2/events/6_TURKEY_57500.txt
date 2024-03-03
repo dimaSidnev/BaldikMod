@@ -1,0 +1,23 @@
+
+country_event = { # EXPANSION ROUTE
+	title = "tur_exp_route_EvtName"
+	desc = "tur_exp_route_EvtDesc"
+	id = 57500
+	
+	trigger = {
+		tag = TUR
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "tur_exp_route_EvtOptLater"
+		set_country_flag = TUR_assimilation_flag
+		CUSTOM_TOOLTIP_57500 = { }
+	}
+	
+}

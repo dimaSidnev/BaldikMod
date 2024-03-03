@@ -758,8 +758,3 @@ liberian_research_boost = {
 	research_points_modifier = 0.15
 	icon = 5
 }
-#ASS
-total_ass = {
-global_assimilation_rate = 0.25 # 1=100%
-assimilation_rate = 0.26
-}

@@ -1,0 +1,323 @@
+### MAIN MENU ###
+
+song = {
+	name = "thecoronation_titletheme.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+		}
+	}
+}
+
+# ANYTIME
+song = {
+	name = "CockDilak.mp3"
+	chance = {
+		modifier = {
+			factor = -1
+			has_country_flag = disable_polkovnik
+		}
+	}
+}
+song = {
+	name = "CockDilak.mp3"
+	chance = {
+		modifier = {
+			factor = -1
+			has_country_flag = disable_polkovnik
+		}
+	}
+}
+song = {
+	name = "Phonk.mp3"
+	chance = {
+		modifier = {
+			factor = -1
+			has_country_flag = disable_polkovnik
+		}
+	}
+}
+song = {
+	name = "Pososi.mp3"
+	chance = {
+		modifier = {
+			factor = -1
+			has_country_flag = disable_polkovnik
+		}
+	}
+}
+song = {
+	name = "Sergei.mp3"
+	chance = {
+		modifier = {
+			factor = -1
+			has_country_flag = disable_polkovnik
+		}
+	}
+}
+song = {
+	name = "DULO.mp3"
+	chance = {
+		modifier = {
+			factor = -1
+			has_country_flag = disable_polkovnik
+		}
+	}
+}
+song = {
+	name = "Ak-47.mp3"
+	chance = {
+		modifier = {
+			factor = -1
+			has_country_flag = disable_polkovnik
+		}
+	}
+}
+song = {
+	name = "Domofhone.mp3"
+	chance = {
+		modifier = {
+			factor = -1
+			has_country_flag = disable_polkovnik
+		}
+	}
+}
+song = {
+	name = "Merin.mp3"
+	chance = {
+		modifier = {
+			factor = -1
+			has_country_flag = disable_polkovnik
+		}
+	}
+}
+### WAR / MOB ###
+song = {
+	name = "DULO.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = no
+		}
+		modifier = {
+			factor = -1
+			is_mobilised  = no
+		}
+	}
+}
+song = {
+	name = "A4.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			is_mobilised  = no
+		}
+	}
+}
+song = {
+	name = "Ak-47.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			is_mobilised  = no
+		}
+		modifier = {
+			factor = 1
+			OR = {
+				is_culture_group = south_slavic
+				is_culture_group = east_slavic
+			}
+			is_mobilised  = yes
+		}
+	}
+}
+song = {
+	name = "A4.mp3"
+	
+	chance = {
+		modifier = {
+			# Audax Validator "." Ignore_NEXT
+			factor = -1
+			is_mobilised  = no
+		}
+		modifier = {
+			factor = -1
+			NOT = {	primary_culture = north_german }
+		}
+	}
+}
+### WAR ###
+song = {
+	name = "ChinaBoom.mp3"
+	
+	chance = {
+		modifier = {
+			# Audax Validator "." Ignore_NEXT
+			factor = -1
+			NOT = {
+				war = yes
+				OR = {
+					tag = USA
+					tag = ENG
+					tag = JAP
+					total_amount_of_ships = 100
+				}
+			}
+		}
+	}
+}
+song = {
+	name = "Domofhone.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = no
+		}
+	}
+}
+song = {
+	name = "Aristokrat.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = no
+		}
+		modifier = {
+			factor = -1
+			NOT = {
+				OR = {
+					government = absolute_monarchy
+					government = prussian_constitutionalism
+					government = hms_government
+				}
+			}
+		}
+	}
+}
+song = {
+	name = "DoraDora.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = no
+		}
+	}
+}
+song = {
+	name = "Vagneri.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = no
+		}
+		modifier = {
+			factor = -1
+			NOT = { tag = USA }
+		}
+		modifier = {
+			factor = 1
+			tag = USA
+			war = yes
+		}
+	}
+}
+## PEACE ###
+song = {
+	name = "Gachi.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			NOT = {
+				year = 1890
+			}
+		}
+		modifier = {
+			factor = -1
+			war = yes
+		}
+	}
+}
+song = {
+	name = "Gachi2.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+		}
+	}
+}
+song = {
+	name = "Gachi3.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+		}
+	}
+}
+
+song = {
+	name = "Gachi4.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+		}
+	}
+}
+song = {
+	name = "Merin.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+		}
+	}
+}
+song = {
+	name = "MoeTp.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+		}
+	}
+}
+song = {
+	name = "Pennivaize.mp3"
+	
+	chance = {
+		modifier = {
+			factor = -1
+			war = yes
+		}
+		modifier = {
+			factor = -1
+			NOT = {
+				OR = {
+					government = absolute_monarchy
+					government = prussian_constitutionalism
+					government = hms_government
+					government = fascist_dictatorship
+					government = presidential_dictatorship
+					government = bourgeois_dictatorship
+					government = colonial_company
+				}
+			}
+		}
+	}
+}

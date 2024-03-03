@@ -25,14 +25,7 @@ easy_player = {
 }
 
 hard_player = {
-	badboy = -0.5
-	research_points_modifier = 0.25
-	leadership_modifier = 0.25
-	poor_life_needs = -0.2
-	middle_life_needs = -0.2
-	rich_life_needs = -0.2
-	war_exhaustion = -0.23
-	industry_tech_research_bonus = 0.1
+	supply_consumption = 0.5
 }
 
 very_hard_player = {
@@ -52,18 +45,12 @@ easy_ai = {
 }
 
 hard_ai = {
-	badboy = -1.0
-	research_points_modifier = 0.35
+	badboy = -0.02
+	research_points_modifier = 0.5
 	land_organisation = 0.25
 	naval_organisation = 0.25
 	leadership_modifier = 0.5
 	global_pop_militancy_modifier = -0.02
-	war_exhaustion = -1.0
-	industry_tech_research_bonus = 0.2
-	army_tech_research_bonus = 0.2
-	navy_tech_research_bonus = 0.2
-	culture_tech_research_bonus = 0.2
-	commerce_tech_research_bonus = 0.2
 }
 
 very_hard_ai = {

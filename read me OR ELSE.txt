@@ -1,0 +1,13 @@
+Project Alice 0.8.0 alpha release
+
+DO NOT EXPECT A BUG-FREE EXPERIENCE IN AN ALPHA RELEASE. I suggest monthly autosaves, although you need to remember to clean out your save directory once and a while if you do so, because a full game's worth of monthly autosaves is several GB.
+
+Bugs and other problems: Please read the September update's section on making a useful bug report before you post.
+
+Supported hardware: Project Alice will only function on CPUs that support AVX2 or better. This is most CPUs manufactured in the last decade. Windows 10 or newer is also required to run the program.
+
+Installing: Move the executable files and the assets folder into your main Victoria 2 directory. In other words, Alice.exe should end up in the same folder as v2game.exe. IF YOU INSTALLED A PREVIOUS DEMO OR RELEASE: I suggest that you delete it and the old assets folder before copying over the new one, as an extra precaution.
+
+Launching: Start the game by running launch_alice.exe. Mods may or may not run with more or less problems. Generally, there will not be support for bugs you encounter while trying out mods unless you are using a mod with one of our compatibility patches (currently, this means HPM and HFM, and I hope to be able to release a small patch for DODR after its next release; GFM compatibility is on hold until their next major release). Try other mods at your own risk.
+
+Playing: You can type "help" into the console to get a list of supported commands.
