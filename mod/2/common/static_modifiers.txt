@@ -26,34 +26,31 @@ easy_player = {
 
 hard_player = {
 	supply_consumption = -0.9
-	factory_input = 0.35
-	factory_output = 0.35
+	factory_input = 0.55
+	factory_output = 0.55
 	factory_cost = -0.5
 	factory_owner_cost = -0.5
-	rgo_output = 0.55
+	rgo_output = 0.85
 	tax_efficiency = 0.63
-	badboy = -5.3
+	badboy = -0.9
 	war_exhaustion = -0.5
-	org_regain = 0.35
-	research_points_modifier = 0.25
+	org_regain = 10.35
+	research_points_modifier = 0.45
 	land_organisation = 0.4
 	naval_organisation = 1.5
 	land_unit_start_experience = 99
 	unit_start_experience = 99
 	naval_unit_start_experience = 99
-	poor_life_needs = -0.35
-	middle_life_needs = -0.35
-	rich_life_needs = -0.35
-	population_growth = 0.1
+	population_growth = 0.9
 	administrative_efficiency_modifier = 200
-	assimilation_rate = 1.2
+	assimilation_rate = 50.2
 	diplomatic_points_modifier = 7.0
-	education_efficiency_modifier = 0.3
-	leadership_modifier = 0.5
+	education_efficiency_modifier = 0.5
+	leadership_modifier = 0.9
 	mobilisation_economy_impact = -0.8
 	suppression_points_modifier = 0.50
 	global_immigrant_attract = 0.2
-	global_assimilation_rate = 0.2
+	global_assimilation_rate = 10.2
 }
 
 very_hard_player = {
@@ -74,7 +71,7 @@ easy_ai = {
 
 hard_ai = {
 	badboy = -5.02
-	supply_consumption = -0.5
+	supply_consumption = -0.9
 	research_points_modifier = 0.3
 	land_organisation = 0.25
 	naval_organisation = 0.25
@@ -83,10 +80,7 @@ hard_ai = {
 	assimilation_rate = 1.2
 	rgo_output = 0.25
 	tax_efficiency = 0.33
-	poor_life_needs = -0.35
-	middle_life_needs = -0.35
-	rich_life_needs = -0.35
-	population_growth = 0.1
+	population_growth = 0.2
 }
 
 very_hard_ai = {
