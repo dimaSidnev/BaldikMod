@@ -26,10 +26,10 @@ easy_player = {
 
 hard_player = {
 	supply_consumption = -0.3
-	factory_output = 0.55
+	factory_output = 0.65
 	factory_cost = -0.5
 	factory_owner_cost = -0.5
-	rgo_output = 0.85
+	rgo_output = 1.35
 	tax_efficiency = 0.63
 	badboy = -2.9
 	org_regain = 10.35
@@ -41,14 +41,13 @@ hard_player = {
 	naval_unit_start_experience = 99
 	population_growth = 0.9
 	administrative_efficiency_modifier = 200
-	assimilation_rate = 50.2
 	diplomatic_points_modifier = 7.0
 	education_efficiency_modifier = 0.5
 	leadership_modifier = 0.9
 	mobilisation_economy_impact = -0.8
 	suppression_points_modifier = 1.90
 	global_immigrant_attract = 0.2
-	global_assimilation_rate = 40.2
+	global_assimilation_rate = 60.2
 }
 
 very_hard_player = {
@@ -76,9 +75,11 @@ hard_ai = {
 	leadership_modifier = 0.5
 	global_pop_militancy_modifier = -0.02
 	assimilation_rate = 1.2
-	rgo_output = 0.45
+	rgo_output = 0.55
 	tax_efficiency = 0.33
-	population_growth = 0.4
+	population_growth = 0.6
+	factory_output = 0.35
+	factory_cost = -0.2
 }
 
 very_hard_ai = {
